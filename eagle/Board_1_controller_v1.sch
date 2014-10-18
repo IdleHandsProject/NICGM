@@ -3252,12 +3252,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="RED1" library="IdleHandsProject" deviceset="LED" device="0603"/>
 <part name="GRN1" library="IdleHandsProject" deviceset="LED" device="0603"/>
 <part name="GRN2" library="IdleHandsProject" deviceset="LED" device="0603"/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="330"/>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="330"/>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="330"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="47"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="47"/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="85"/>
 <part name="R6" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="330"/>
-<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="330"/>
-<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="330"/>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="150"/>
+<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="150"/>
 <part name="SG1" library="SparkFun-Electromechanical" deviceset="BUZZER" device="PTH"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="-SMD-1101NE"/>
@@ -3691,6 +3691,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="205.74" y="43.18"/>
 <wire x1="205.74" y1="43.18" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
 <label x="195.58" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="PB4(MISO)"/>
+<wire x1="175.26" y1="10.16" x2="187.96" y2="10.16" width="0.1524" layer="91"/>
+<label x="180.34" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GRN" class="0">
